@@ -17,7 +17,6 @@ const Callback = () => {
     const [age, setAge] = useState(22);
     const [salary, setSalary] = useState(100);
 
-
     const addAge =  useCallback(()=>setAge(prev => prev + 1),[age]);
     const addSalary = useCallback(()=>setSalary(prev => prev + 100),[salary])
 
