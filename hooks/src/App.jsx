@@ -7,7 +7,7 @@ import './App.css'
 // import Ref from './hooks/Ref/Ref'
 // import Memo from './hooks/Memo/Memo'
 // import Callback from './hooks/Callback/Callback'
-import Context from './hooks/Context/Context'
+// import Context from './hooks/Context/Context'
 
 
 
@@ -23,7 +23,8 @@ function App() {
     {/* <Ref/> */}
     {/* <Memo/> */}
     {/* <Callback /> */}
-    <Context/>
+    {/* <Context/> */}
+    
     </>
   )
 }

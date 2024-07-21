@@ -7,7 +7,7 @@ import React, { createContext, useState } from 'react'
 //the sol: using redux and save all stats in redux and all component access this redux.
 
 //the sol two: using useContext that the better sol because the hook from react not outside library same of redux.
-
+//using to share the states with component
 
 import User from './User';
 import Cart from './Cart';
