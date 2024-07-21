@@ -8,6 +8,8 @@ import './App.css'
 // import Memo from './hooks/Memo/Memo'
 // import Callback from './hooks/Callback/Callback'
 // import Context from './hooks/Context/Context'
+import Reducer from './hooks/Reducer/Reducer'
+
 
 
 
@@ -24,7 +26,7 @@ function App() {
     {/* <Memo/> */}
     {/* <Callback /> */}
     {/* <Context/> */}
-    
+    <Reducer/>
     </>
   )
 }
