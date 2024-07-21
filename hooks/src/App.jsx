@@ -4,14 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 // import State from './hooks/State/State'
 import Effect from './hooks/Effect/Effect'
+import Ref from './hooks/Ref/Ref'
+
 
 
 function App() {
 
   return (
     <>
-    <Effect />
     {/* <State/> */}
+    {/* <Effect /> */}
+    <Ref/>
     </>
   )
 }
