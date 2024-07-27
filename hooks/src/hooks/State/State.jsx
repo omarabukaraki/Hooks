@@ -60,3 +60,32 @@
 // }
 
 // export default State
+
+
+
+import React, { useState } from 'react'
+import img_1 from '../../assets/a-cup-of-black-tea.jpg';
+import img_2 from '../../assets/about.jpg';
+
+const State = () => {
+
+const [img,setImg] = useState(img_1);
+
+const changeImg = ()=>{
+   if(img === img_1){
+     setImg(img_2);
+   }else{
+    setImg(img_1);
+   }
+};
+
+  return  (
+    <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+         <img style={{borderRadius:'20px'}} src={img} width={'400px'} height={'300px'}/>
+         <button onClick={changeImg} style={{width:'200px',marginTop:'20px'}}>Toggle Switch</button>
+        
+    </div>
+  )
+}
+
+export default State
